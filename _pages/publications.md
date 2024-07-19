@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Publications"
+title: "Map"
 permalink: /publications/
 author_profile: true
 ---
