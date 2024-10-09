@@ -6,7 +6,8 @@ redirect_from:
   - /about/
   - /about.html
 ---
-
+Objectives
+======
 In response to various challenges facing liberal democracy, Western governments have
 turned to education in recent years as a tool to bolster the democratic dispositions of
 the new generation. Although there is ample evidence from
@@ -19,9 +20,12 @@ education system but also for the identification of specific areas of improvemen
 within it. As such it would be a highly useful tool for policy makers and practitioners
 interested in citizenship education.
 
+Objectives
+======
 The main objective of the project is to develop such a measure. We label the measure the Education for Democracy Index (EfDI) and we will develop it for almost all European countries. We restrict ourselves to European countries in first instance as these are the countries for which the necessary data sources are available. The EfDI will consist of national level data on system characteristics and educational policies and practices. Unlike other policy indexes, it will also cover the implementation of policies and curricula in schools. Once it is constructed, we intend to relate it to national political and cultural traditions (Objective 2) and to young people’s democratic dispositions (Objective 3).
 
-
+The Index
+======
 The construction of the EfDI involves two stages: (1) the conceptual development of
 the index and (2) populating it with data. The first stage starts by drawing on the
 Reference-Framework-of-Competences-for-Democratic-Culture (RFCDC) of the
@@ -40,6 +44,14 @@ education and IEA-ICCS studies for data on practices
 in schools. These sources make it possible to construct the EfDI for several points in
 time.
 
+Team
+======
+Principal Investigator: [Jan Germen Janmaat](https://germjanmaat.wordpress.com/)
+Co-Investigator: [Bryony Hoskins](https://bryonyhoskins.weebly.com/)
+Research Fellow: [Adrian Arellano](https://www.adrianarellano.co/)
+
+Funding
+======
 Funder: Leverhulme Trust grant RPG-2023-202
 
 Funding period: 1-2-2024 to 31-1-2028
