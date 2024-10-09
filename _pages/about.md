@@ -6,8 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Objectives
-======
+
 In response to various challenges facing liberal democracy, Western governments have
 turned to education in recent years as a tool to bolster the democratic dispositions of
 the new generation. Although there is ample evidence from
@@ -47,7 +46,9 @@ time.
 Team
 ======
 Principal Investigator: [Jan Germen Janmaat](https://germjanmaat.wordpress.com/)
+
 Co-Investigator: [Bryony Hoskins](https://bryonyhoskins.weebly.com/)
+
 Research Fellow: [Adrian Arellano](https://www.adrianarellano.co/)
 
 Funding
