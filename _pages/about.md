@@ -19,15 +19,11 @@ education system but also for the identification of specific areas of improvemen
 within it. As such it would be a highly useful tool for policy makers and practitioners
 interested in citizenship education.
 
-Drawing on a recently started project funded by the Leverhulme Trust, we will
-explain, in this presentation, how we plan to develop such a measure. We label the
-measure the Education for Democracy Index (EfDI) and we will develop it for
+Drawing on a recently started project funded by the Leverhulme Trust, we plan to develop such a measure. We label the measure the Education for Democracy Index (EfDI) and we will develop it for
 almost all European countries. We restrict ourselves to European countries in first
 instance as these are the countries for which the necessary data sources are
 available. The EfDI will consist of national level data on system characteristics and
-educational policies and practices. Unlike other policy indexes, such as the Migrant
-Integration Policy Index (MIPEX), it will also cover the implementation of policies and
-curricula in schools. Once it is constructed, we intend to relate it to national political
+educational policies and practices. Unlike other policy indexes, it will also cover the implementation of policies and curricula in schools. Once it is constructed, we intend to relate it to national political
 and cultural traditions and to young people’s democratic dispositions.
 The construction of the EfDI involves two stages: (1) the conceptual development of
 the index and (2) populating it with data. The first stage starts by drawing on the
