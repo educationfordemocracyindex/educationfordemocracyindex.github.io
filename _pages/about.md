@@ -51,10 +51,5 @@ Research Fellow: [Adrian Arellano](https://www.adrianarellano.co/)
 
 Funding
 ======
-Funder:
 
-![Editing a markdown file for a talk](/images/Leverhulme_Trust_RGB_blue_0_0.png)
-
-grant RPG-2023-202
-
-Funding period: 1-2-2024 to 31-1-2028
+![Funder](/images/Leverhulme_Trust_RGB_blue_0_0.png)
