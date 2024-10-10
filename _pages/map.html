@@ -14,7 +14,7 @@ author_profile: true
 <!-- The iframe container -->
 <iframe id="mapFrame" src="https://adrianaarellano.github.io/efdi_test_4/"
         width="100%"
-        height="700px"
+        height="900px"
         scrolling="yes"
         style="border:none;"
         seamless="seamless">
@@ -26,10 +26,16 @@ author_profile: true
     var mapFrame = document.getElementById("mapFrame");
     var mapSelector = document.getElementById("mapSelector").value;
 
-    if (mapSelector === "efdi_all") {
-      mapFrame.src = "https://adrianaarellano.github.io/efdi_test_4/";
-    } else if (mapSelector === "efdi_non_system") {
-      mapFrame.src = "https://adrianaarellano.github.io/efdi-non-system-index/";
-    }
+    // Clear the iframe source first to force reload
+    mapFrame.src = "";
+
+    // Add a small delay before switching the src to the new map
+    setTimeout(function() {
+      if (mapSelector === "efdi_all") {
+        mapFrame.src = "https://adrianaarellano.github.io/efdi_test_4/";
+      } else if (mapSelector === "efdi_non_system") {
+        mapFrame.src = "https://adrianaarellano.github.io/efdi-non-system-index/";
+      }
+    }, 100); // A short delay to ensure the change is applied
   }
 </script>
