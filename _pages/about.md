@@ -46,7 +46,7 @@ time.
 Team
 ======
 Principal Investigator: [Jan Germen Janmaat](https://germjanmaat.wordpress.com/);
-Co-Investigator: [Bryony Hoskins](https://bryonyhoskins.weebly.com/);
+Co-Investigator: [Bryony Hoskins](https://bryonyhoskins.weebly.com/);           
 Research Fellow: [Adrian Arellano](https://www.adrianarellano.co/)
 
 Funding
