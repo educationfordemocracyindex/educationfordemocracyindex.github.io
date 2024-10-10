@@ -5,37 +5,10 @@ permalink: /map/
 author_profile: true
 ---
 
-<!-- Dropdown menu to select the map -->
-<select id="mapSelector" onchange="switchMap()" style="margin-bottom: 20px;">
-  <option value="efdi_all">EfDI All Indicators Index</option>
-  <option value="efdi_non_system">EfDI Non-System Index</option>
-</select>
-
-<!-- The iframe container -->
-<iframe id="mapFrame" src="https://adrianaarellano.github.io/efdi-non-system-index/"
+<iframe src="https://adrianaarellano.github.io/test/"
         width="100%"
-        height="900px"
+        height="700px"
         scrolling="yes"
         style="border:none;"
         seamless="seamless">
 </iframe>
-
-<script>
-  // Function to switch the iframe source based on dropdown selection
-  function switchMap() {
-    var mapFrame = document.getElementById("mapFrame");
-    var mapSelector = document.getElementById("mapSelector").value;
-
-    // Clear the iframe source first to force reload
-    mapFrame.src = "";
-
-    // Add a small delay before switching the src to the new map
-    setTimeout(function() {
-      if (mapSelector === "efdi_all") {
-        mapFrame.src = "https://adrianaarellano.github.io/efdi_test_4/";
-      } else if (mapSelector === "efdi_non_system") {
-        mapFrame.src = "https://adrianaarellano.github.io/efdi-non-system-index/";
-      }
-    }, 100); // A short delay to ensure the change is applied
-  }
-</script>
