@@ -46,13 +46,12 @@ time.
 Team
 ======
 Principal Investigator: [Jan Germen Janmaat](https://germjanmaat.wordpress.com/)
-
-Co-Investigator: [Bryony Hoskins](https://bryonyhoskins.weebly.com/)
-
-Research Fellow: [Adrian Arellano](https://www.adrianarellano.co/)
+;Co-Investigator: [Bryony Hoskins](https://bryonyhoskins.weebly.com/)
+;Research Fellow: [Adrian Arellano](https://www.adrianarellano.co/)
 
 Funding
 ======
 Funder: Leverhulme Trust grant RPG-2023-202
+![Editing a markdown file for a talk](/images/Leverhulme_Trust_RGB_blue_0_0.png)
 
 Funding period: 1-2-2024 to 31-1-2028
