@@ -1,10 +1,10 @@
 # main links links
 main:
   - title: "Index Map"
-    url: /map/
+    url: /publications/
 
   - title: "Data"
-    url: /data/
+    url: /talks/
 
   - title: "Methodology"
     url: /teaching/
