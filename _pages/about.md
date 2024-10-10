@@ -43,7 +43,7 @@ education and IEA-ICCS studies for data on practices
 in schools. These sources make it possible to construct the EfDI for several points in
 time.
 
-Team
+Members
 ======
 Principal Investigator: [Jan Germen Janmaat](https://germjanmaat.wordpress.com/);
 Co-Investigator: [Bryony Hoskins](https://bryonyhoskins.weebly.com/);           
