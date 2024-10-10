@@ -209,7 +209,7 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
-  data:
+  talks:
     output: true
     permalink: /:collection/:path/
 
@@ -261,10 +261,10 @@ defaults:
       author_profile: true
       share: true
       comment: true
-  # _data
+  # _talks
   - scope:
       path: ""
-      type: data
+      type: talks
     values:
       layout: talk
       author_profile: true
