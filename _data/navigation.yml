@@ -1,9 +1,9 @@
 # main links links
 main:
-  - title: "Explore the data"
-    url: /map/
+  - title: "About"
+    url: /about/
 
-  - title: "Data"
+  - title: "Explore the data"
     url: /data/
 
   - title: "Methodology"
