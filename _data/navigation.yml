@@ -2,11 +2,6 @@
 main:
   - title: "About"
     url: /aboutproject/
-    children:
-      - title: "Overview"
-        url: /aboutproject/overview/
-      - title: "Goals"
-        url: /aboutproject/goals/
 
   - title: "Explore the data"
     url: /data/
