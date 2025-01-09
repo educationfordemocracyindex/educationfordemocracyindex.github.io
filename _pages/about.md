@@ -1,5 +1,5 @@
 ---
 permalink: /
-title: "About the Education for Democracy Index"
+title: ""
 author_profile: true
 ---
