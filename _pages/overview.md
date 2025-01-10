@@ -1,4 +1,5 @@
 ---
+layout: archive
 permalink: /aboutproject/overview/
 title: "Overview"
 author_profile: true
