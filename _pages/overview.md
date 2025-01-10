@@ -1,6 +1,6 @@
 ---
 layout: archive
-permalink: /dropdown/overview/
+permalink: /overview/
 title: "Overview"
 nav: true
 nav_order: 1
