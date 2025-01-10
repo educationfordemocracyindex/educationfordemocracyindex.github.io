@@ -1,7 +1,8 @@
 ---
 layout: archive
-permalink: /aboutproject/overview/
+permalink: /overview/
 title: "Overview"
-author_profile: true
+nav: true
+nav_order: 1
 ---
 Add content for the Overview page here.
