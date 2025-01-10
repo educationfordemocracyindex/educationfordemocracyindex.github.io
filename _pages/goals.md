@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Goals"
-permalink: /goals/
+permalink: /dropdown/goals/
 nav: true
 nav_order: 2
 ---

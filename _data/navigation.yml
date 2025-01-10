@@ -17,6 +17,13 @@ main:
 
   - title: "Submenus"
     url: /dropdown/
+    children:
+      - title: "Overview"
+        url: /dropdown/overview/
+      - title: "Goals"
+        url: /dropdown/goals/
+
+
 
   #- title: "CV"
     #url: /cv/
