@@ -279,31 +279,52 @@ svg:not(:root) {
  *  </nav>
  */
 
-nav {
-  ul {
-    margin: 0;
-    padding: 0;
-  }
+ /* Navigation Menu Base Styles */
+ nav ul {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+ }
 
-  li {
-    list-style: none;
-  }
+ nav li {
+   position: relative; /* Needed to position dropdowns relative to their parent */
+ }
 
-  a {
-    text-decoration: none;
-  }
+ nav a {
+   display: block;
+   padding: 10px 15px;
+   text-decoration: none;
+   color: var(--text-color); /* Replace with a color if variables are not supported */
+   background-color: var(--background-color); /* Replace with a color if variables are not supported */
+ }
 
-  /* override white-space for nested lists */
-  ul li,
-  ol li {
-    margin-bottom: 0;
-  }
+ nav ul li ul { /* The dropdown menu */
+   position: absolute;
+   top: 100%; /* Position it directly below the parent tab */
+   left: 0;
+   display: none; /* Hide dropdown by default */
+   background-color: var(--dropdown-background-color); /* Replace with a color if variables are not supported */
+   list-style: none;
+   padding: 0;
+   margin: 0;
+   z-index: 1000;
+ }
 
-  li ul,
-  li ol {
-    margin-top: 0;
-  }
-}
+ nav ul li ul li a {
+   padding: 10px 15px;
+   color: var(--dropdown-text-color); /* Replace with a color if variables are not supported */
+   background-color: var(--dropdown-background-color); /* Replace with a color if variables are not supported */
+   white-space: nowrap; /* Prevent text wrapping */
+ }
+
+ nav ul li ul li a:hover {
+   background-color: var(--dropdown-hover-color); /* Replace with a color if variables are not supported */
+   color: var(--dropdown-hover-text-color); /* Replace with a color if variables are not supported */
+ }
+
+ nav li:hover > ul {
+   display: block; /* Show dropdown on hover */
+ }
 
 /*
    Global animation transition
