@@ -279,31 +279,54 @@ svg:not(:root) {
  *  </nav>
  */
 
-nav {
-  ul {
-    margin: 0;
-    padding: 0;
-  }
+ nav {
+   ul {
+     margin: 0;
+     padding: 0;
+     list-style: none;
+   }
 
-  li {
-    list-style: none;
-  }
+   li {
+     position: relative; /* Needed to position dropdowns relative to their parent */
+   }
 
-  a {
-    text-decoration: none;
-  }
+   a {
+     display: block;
+     padding: 10px 15px;
+     text-decoration: none;
+     color: $text-color; /* Use your text-color variable */
+     background-color: $background-color; /* Use your background-color variable */
+   }
 
-  /* override white-space for nested lists */
-  ul li,
-  ol li {
-    margin-bottom: 0;
-  }
+   ul li ul { /* The dropdown menu */
+     position: absolute;
+     top: 100%; /* Position it directly below the parent tab */
+     left: 0;
+     display: none; /* Hide dropdown by default */
+     background-color: $dropdown-background-color; /* Dropdown background */
+     list-style: none;
+     padding: 0;
+     margin: 0;
+     z-index: 1000;
+   }
 
-  li ul,
-  li ol {
-    margin-top: 0;
-  }
-}
+   ul li ul li a {
+     padding: 10px 15px;
+     color: $dropdown-text-color; /* Dropdown text color */
+     background-color: $dropdown-background-color;
+     white-space: nowrap; /* Prevent text wrapping */
+   }
+
+   ul li ul li a:hover {
+     background-color: $dropdown-hover-color; /* Background color on hover */
+     color: $dropdown-hover-text-color; /* Text color on hover */
+   }
+
+   li:hover > ul {
+     display: block; /* Show dropdown on hover */
+   }
+ }
+
 
 /*
    Global animation transition
