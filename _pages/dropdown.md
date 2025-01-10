@@ -4,9 +4,9 @@ nav: true
 nav_order: 6
 dropdown: true
 children:
-    - title: "Overview"
+    - title: Overview
       permalink: /overview/
     - title: divider
-    - title: "Goals"
+    - title: Goals
       permalink: /goals/
 ---
